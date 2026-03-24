@@ -1,0 +1,18 @@
+packages:
+  "framer-motion": "For fluid layout animations and page transitions"
+  "recharts": "For interactive dashboard analytics charts"
+  "date-fns": "For readable timestamp formatting in activity feeds"
+  "socket.io-client": "For real-time activity and notification streams"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility function to efficiently merge Tailwind CSS classes"
+  "lucide-react": "For beautiful vector icons"
+
+images:
+  - path: "artifacts/dashboard/public/images/auth-bg.png"
+    description: "Deep dark slate and electric cyan abstract geometric architectural background, subtle glowing neon lines, highly polished, 8k resolution, premium enterprise aesthetic, dark mode"
+    aspect_ratio: "16:9"
+
+notes:
+  - Application uses generated React Query hooks from @workspace/api-client-react
+  - Socket.io connects to the root URL (/) with path /socket.io
+  - Role-based routing automatically redirects users based on their role
