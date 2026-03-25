@@ -5,9 +5,6 @@ The Real-Time Client Project Dashboard is a full-stack web application designed 
 
 The application includes project and task management, activity logging, notifications, dashboards, filtering, real-time activity feed, and automated overdue task tracking through background jobs. The project is built using a monorepo architecture with shared database schema, API validation, and generated API client to ensure consistency between frontend and backend.
 
-The primary focus of this project was backend architecture, role-based authorization, real-time systems, and database design rather than building a simple CRUD application.
-
-
 ## Features
 
 ### Authentication & Authorization
@@ -131,5 +128,5 @@ Relationships:
 
 
 ## Conclusion
-This project demonstrates a full-stack system with role-based access control, real-time activity updates, background job scheduling, relational database design, API validation, and monorepo architecture. The main objective of this project was to design a scalable backend architecture with proper authorization, real-time communication, and structured database design rather than a simple CRUD application.
+This project demonstrates a full-stack system with role-based access control, real-time activity updates, background job scheduling, relational database design, API validation, and monorepo architecture. The main objective of this project was to design a scalable backend architecture with proper authorization, real-time communication, and structured database design.
 
